@@ -1,0 +1,8 @@
+LOADI R0, 1     
+LOADI R1, 3     
+ADD R0, R1      
+STORE R0, 0x01  
+DEC R1          
+JZ 0x07
+JMP 0x02         
+NOP             
